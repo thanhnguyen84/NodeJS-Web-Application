@@ -1,0 +1,29 @@
+{
+  "name": "ch28",
+  "version": "1.0.0",
+  "private": true,
+  "description": "I am study nodejs",
+  "scripts": {
+    "start": "node cart_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thanh Nguyen",
+  "dependencies": {
+    "basic-auth-connect": "^1.0.0",
+    "body-parser": "^1.14.0",
+    "censorify": "^0.1.1",
+    "connect-mongo": "^0.8.2",
+    "cookie-parser": "^1.4.0",
+    "cookie-session": "^1.2.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "jade": "^1.11.0",
+    "mongodb": "^2.0.43",
+    "mongoose": "^4.1.7",
+    "passport": "^0.3.0",
+    "passport-facebook": "^2.0.0",
+    "passport-google": "^0.3.0",
+    "passport-twitter": "^1.0.3"
+  }
+}
