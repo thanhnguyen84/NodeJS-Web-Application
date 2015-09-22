@@ -17,4 +17,8 @@ module.exports = function(app) {
   app.post('/customers/update/shipping', customers.updateShipping);
   app.post('/customers/update/billing', customers.updateBilling);
   app.post('/customers/update/cart', customers.updateCart);
+
+  app.get('/mailapp', function(req, res){
+    res.render('advanced');
+  });
 }
